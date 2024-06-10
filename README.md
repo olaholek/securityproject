@@ -1,8 +1,8 @@
 # Security project 
-Security Project is a Spring Boot application that uses the basic auth authentication mechanism and saves data in the H2 database.
-Endpoints use security mechanisms such as authorization of roles and user permissions.
 
 ## Description
+Security Project is a Spring Boot application that uses the basic auth authentication mechanism and saves data in the H2 database.
+Endpoints use security mechanisms such as authorization of roles and user permissions.
 
 ## Requirements
 For building and running the application you need:
@@ -24,3 +24,6 @@ To run the tests, use:
     ./mvnw test
 ```
 
+## Metrics
+The application produces metrics that are available at:
+https://localhost/api/actuator/metrics
